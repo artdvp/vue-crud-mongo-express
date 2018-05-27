@@ -1,41 +1,38 @@
-# HiwJung
+# CRUD MEVN : MongoDB + Express + Vuejs + Nodejs
 
-web hiw hiw for human hiw
+## Server
 
-## SignUp
+create config mongodb path
 
-1. Email
-    - Picture Profile 
-    - Email (อีเมล์)
-    - Name (ชื่อ)
-    - Password (รหัสผ่าน)
-    - Gender (เพศ)
-        - Male (ชาย)
-        - Female (หญิง)
-        - Other (ไม่ระบุ)
-    - checkbox : subscription email
-
-Path 
-
-local/guest2?_f=signup
-
-## Authentication 
-
-1. Facebook
-2. Gmail
-3. Line
-4. Twitter
-
-Path View
-
-clinet : local/guest2/login
-server : /api/guest2/login
-
-
-> DB.js
+>> server/DB.js
 
 ```js
 module.exports = {
     DB: 'mongodb://url'
 }
 ```
+
+start server
+
+```sh
+$ cd server 
+$ npm install
+$ npm run start
+```
+
+## Client
+
+```sh
+$ cd client 
+$ npm install 
+$ npm run serve
+```
+
+### Path View
+
+clinet : localhost:8080
+server api : localhost:4000/items
+
+## Learn from
+
+from : [source](https://appdividend.com/2017/08/04/vuejs-nodejs-tutorial/)

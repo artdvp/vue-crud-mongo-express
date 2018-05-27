@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img src="../assets/logo.png">
-    <HelloWorld msg="Hiwjung Project"/>
+    <HelloWorld msg="CRUD Vue Mongo Project"/>
   </div>
 </template>
 
@@ -22,4 +22,3 @@ export default {
   text-align: center;
 }
 </style>
-

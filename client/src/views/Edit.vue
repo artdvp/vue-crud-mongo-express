@@ -1,15 +1,15 @@
 <template>
     <div>
-        <create-item></create-item>
+        <edit-item></edit-item>
     </div>
 </template>
 
 <script>
-import CreateItem from "../components/CreateItem";
+import EditItem from "../components/EditItem";
 export default {
-  name: "about",
+  name: "edit",
   components: {
-    CreateItem
+    EditItem
   }
 };
 </script>
